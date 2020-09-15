@@ -17,7 +17,7 @@ function App() {
       <div>
         <Nav />
         <Jumbotron />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/Home" component={Home} />
         <Route exact path="/Projects" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/NoMatch" component={NoMatch} />

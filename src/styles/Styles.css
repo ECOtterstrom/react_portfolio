@@ -4,6 +4,10 @@
     margin: 20;
 }
 
+.nametext {
+    color: white;
+}
+
 .jumbotron {
     height: 150px;
     background-image: url('../images/NetherlandsBrick2.jpg');
@@ -38,6 +42,9 @@
     text-align: left;
 }
 
+#card-text {
+    text-align: left;
+}
 
 .col-auto {
     padding-top: 5px;

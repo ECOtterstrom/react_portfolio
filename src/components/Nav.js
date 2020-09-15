@@ -1,31 +1,40 @@
 import React from 'react';
+import { Link, useLocation } from "react-router-dom";
 import "../styles/Styles.css";
 
-const Nav = () => {
-    return (
-        // <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor: '#ff7043'}}>
-        <nav className="navbar navbar-expand-sm navbar-dark" style={{backgroundColor: '#546e7a'}}>
-        <a className="navbar-brandfont" href=" index.html">Erin Otterstrom</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-      
-        <div className="collapse navbar-collapse" id="navbarsExample03">
-          <ul className="navbar-nav mr-auto">
-            
-              <li className="nav-item">
-                <a className="nav-link" href="index.html">About</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li className="nav-item active">
-                <a className="nav-link" href="contact.html">Contact<span className="sr-only">(current)</span></a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-    )
-  }
-  
-  export default Nav;
+
+function Nav() {
+  const location = useLocation();
+  return (
+
+    <nav className="navbar navbar-expand-sm navbar-dark" style={{ backgroundColor: '#546e7a' }}>
+      <div className="collapse navbar-collapse" id="navbarsExample03">
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <Link to="/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+              <h5><b>Erin C. Otterstrom</b></h5>
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link to="/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+              Portfolio
+            </Link>
+          </li>
+          <li className="nav-item active">
+            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  )
+}
+
+export default Nav;

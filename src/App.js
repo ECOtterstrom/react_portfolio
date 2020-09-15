@@ -33,7 +33,7 @@ function App() {
       <Nav />
       <Jumbotron />
       <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/react_portfolio" component={Home} />
       <Route exact path="/Projects" component={Projects} />
       <Route exact path="/Contact" component={Contact} />
       <Route exact path="/NoMatch" component={NoMatch} />

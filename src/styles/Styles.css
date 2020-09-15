@@ -19,8 +19,6 @@
     text-align: center;
     font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
     color: black;
-    /* background-color: rgb(238, 113, 113); */
-
 }
 
 .container {
@@ -81,45 +79,6 @@ body {
     background-color: slategray;
     border: gray 2px;
 }
-
-/* .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-} */
-
-/* .contact-info {
-    border: 5px solid steelblue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 75%;
-    font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
-    background-color: transparent;
-    color: darkslategray;
-}
-
-.portfolio-info {
-        border: transparent;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 50px;
-        height: 75%;
-        font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
-        background-color: transparent;
-        color: black;
-}
-
-.about-info {
-    border: 5px solid steelblue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding:50px;
-    height: 75%;
-    font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
-    background-color: #fbe9e7;
-    color: darkslategray;
-} */
 
 .footer {
     padding: 30px;

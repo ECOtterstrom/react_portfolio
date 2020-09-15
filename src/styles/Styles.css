@@ -46,6 +46,15 @@
     text-align: left;
 }
 
+#notbold{
+    font-weight: normal;
+}
+
+.card-footer {
+    background-color:#FDF2E9;
+    border-top: transparent;
+}
+
 .col-auto {
     padding-top: 5px;
 }
@@ -60,17 +69,12 @@
 }
 
 body {
-    /* background-image: url('../images/NetherlandsBrick2.jpg');
-    background-size: cover; */
     background-color:#FDF2E9;
-    ;
-    /* font-family:'Montserrat', sans-serif; */
     font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
 }
 
 .navcolor {
-    /* color:#ff7043 ; */
-    color: #607d8b;
+    background-color: #546e7a;
 }
 
 .btn {
@@ -78,13 +82,13 @@ body {
     border: gray 2px;
 }
 
-.content {
+/* .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
+} */
 
-.contact-info {
+/* .contact-info {
     border: 5px solid steelblue;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,14 +100,14 @@ body {
 }
 
 .portfolio-info {
-        border: 5px solid steelblue;
+        border: transparent;
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 50px;
         height: 75%;
         font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
         background-color: transparent;
-        color: #ffffff;
+        color: black;
 }
 
 .about-info {
@@ -115,7 +119,7 @@ body {
     font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
     background-color: #fbe9e7;
     color: darkslategray;
-}
+} */
 
 .footer {
     padding: 30px;

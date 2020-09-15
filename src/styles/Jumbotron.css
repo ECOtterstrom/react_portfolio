@@ -2,19 +2,11 @@
     height: 150px;
     background-image: url('../images/NetherlandsBrick2.jpg');
     background-size: cover;
-    /* background-attachment: fixed; */
     clear: both; 
     padding-top: 15px; 
     padding-bottom: 5px;
     text-align: center;
     font-family: 'Baloo Chettan 2', 'Baloo 2', 'Poppins', cursive, sans-serif;
-    color: black
-    /* background-color: rgb(238, 113, 113); */
-
+    color: black 
 }
 
-/* .parallax {
-    background: url("../../Assets/parallax_2.jpg") no-repeat center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px; */

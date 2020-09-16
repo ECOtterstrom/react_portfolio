@@ -11,13 +11,13 @@ function Nav() {
       <div className="collapse navbar-collapse" id="navbarsExample03">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/" className={location.pathname === "/react_portfolio" ? "nav-link active" : "nav-link"}>
               <h5><b>Erin C. Otterstrom</b></h5>
             </Link>
           </li>
 
           <li className="nav-item">
-            <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to="/" className={location.pathname === "/react_portfolio" ? "nav-link active" : "nav-link"}>
               About
             </Link>
           </li>

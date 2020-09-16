@@ -17,7 +17,7 @@ function Nav() {
           </li>
 
           <li className="nav-item">
-            <Link to="/" className={location.pathname === "/react_portfolio" ? "nav-link active" : "nav-link"}>
+            <Link to="/" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
               About
             </Link>
           </li>
